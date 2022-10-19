@@ -4,32 +4,19 @@
     <meta charset="UTF-8">
     
     <title>Portfólio</title>
-    <style>
-      h1 {
-        font-family: 'Times New Roman', Times, serif;
-    }
-    h2 {
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-   body {
-    background-color: antiquewhite;
-   } 
-   .destaque {
-    color: greenyellow;
-    font-size: x-large;
-    background-color: black;
-   }
-   
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 
   </head>
 <body>
-  <h1>Guilherme Couto</h1>
- <h2><a href="#Quem é Guilherme ?" >Quem é Guilherme ?</a>
-  <img src="./Eu perfil.jpeg" width='300px' alt="Guilherme na praia"> 
-  <p>Nasci em <i>Santos-São Paulo</i>, mas desde o nascimento moro em <strong>São Vicente</strong></p>
-  <ul >
+<div class="descricao">
+    <h1>Guilherme Couto</h1><p>Nasci em <i>Santos-São Paulo</i>, mas desde o nascimento moro em <strong>São Vicente</strong></p>
+  </div>
+  <div>
+    <img class="photo" src="./Eu perfil.jpeg" width='550px' alt="Guilherme na praia"> 
+  </div>
+    <h2><a class="quem" href="#Quem é Guilherme ?" >Quem é Guilherme ?</a>
+    
+  <ul class="lista" >
     <li class="destaque">Profissional</li>
     <li>Dedicado.</li>
     <li>Proativo.</li>
@@ -37,10 +24,11 @@
     <li>Facilidade em aprender.</li>
     <li class="destaque">Inteligêcia Emocional</li>
   </ul>
-<a href="https://www.fatosdesconhecidos.com.br/" target="_blank"> <h2>Blog Fatos Desconhecidos</h2></a>
-<img src="https://www.fatosdesconhecidos.com.br/wp-content/uploads/2021/01/android-chrome-512x512-1.png" width="300px" alt="Foto Fatos Desconhecidos">
-<br><br><br><br><br>
-<p id= "Quem é Guilherme ?" > Olá meu nome é Guilherme Couto Medeiros, tenho 19 anos sou nascido e criado no litoral de São Paulo. <br>
+<a class="titulo" href="https://www.fatosdesconhecidos.com.br/" target="_blank"> <h2>Blog Favorito.</h2></a>
+<img class="fatos" src="https://www.fatosdesconhecidos.com.br/wp-content/uploads/2021/01/android-chrome-512x512-1.png" width="300px" alt="Foto Fatos Desconhecidos">
+<br><br><br><br><br> 
+
+<p class="eu" id= "Quem é Guilherme ?" > Olá meu nome é Guilherme Couto Medeiros, tenho 19 anos sou nascido e criado no litoral de São Paulo. <br>
     Vim ao mundo no dia 23 de março de 2003 em Santos-SP, desde então moro em São vicente. Namoro a 3 anos e 3 meses com a mulher da minha vida. <br>
     Durante minha vida me dediquei ao futebol, mas como nem tudo é como queremos e buscamos, não consegui me tornar profissional
     e hoje sou estudante de programação na Trybe!! <br>

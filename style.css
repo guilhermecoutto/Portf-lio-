@@ -1,0 +1,50 @@
+.descricao {
+ position: absolute;
+ padding: 10px;
+ left: 570px;
+ border: 9px solid rgb(175, 172, 177);
+ font-size: larger;
+}
+h1 {
+    text-align: center;
+}
+.photo {
+    
+    padding: 10px;
+    background-color: rgb(175, 172, 177);
+}
+.fatos {
+    margin-left: 50px;
+    padding: 40px;
+    background-color: black;
+}
+.titulo {
+    color: black;
+}
+ul li:nth-child(odd){
+    color: gray;
+}
+
+.eu {
+position: absolute;
+ padding: 10px;
+ left: 570px;
+ top: 150px;
+ border: 10px solid rgb(175, 172, 177);
+font-size: x-large;
+}
+.quem { 
+  color: black;
+    position: absolute;
+    left: 740px;
+    top: 1150px;
+}
+.lista {
+    position: absolute;
+    left: 740px;
+    top: 1170px;
+}
+.lista, .quem {
+    background-color: rgb(175, 172, 177);
+    
+}
